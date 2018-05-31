@@ -1,7 +1,7 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Makinga yummy burger using node.js, mysql and a custom ORM",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,5 +15,14 @@
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.10",
     "mysql": "^2.15.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliot84/burger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eliot84/burger/issues"
+  },
+  "homepage": "https://github.com/eliot84/burger#readme"
 }
