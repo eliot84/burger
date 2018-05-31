@@ -12,8 +12,8 @@ var orm = {
 	},
 
 	update: function(tableInput, condition, callback){
-		console.log('UPDATE ' + tableInput + ' SET devoured=true WHERE id=' + condition);
-		var queryStringUpdate = 'UPDATE ' + tableInput + 'SET devoured=true WHERE id=' + condition;
+		console.log('UPDATE ' + tableInput + ' SET devoured = true WHERE id = ' + condition);
+		var queryStringUpdate = 'UPDATE ' + tableInput + ' SET devoured = true WHERE id = ' + condition;
 		connection.query(queryStringUpdate, function(err, result){
 			if(err)throw err;
 			callback(result);

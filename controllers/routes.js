@@ -12,7 +12,7 @@ router.get('/', function(req,res){
 router.put('/burgers/update', function(req,res){
 			console.log("THE ID PICKED:::  " + JSON.stringify(req.body));
 
-	burger.update(req.body.id, function(result){
+	burger.update(req.body.burger_id, function(result){
 		console.log(result);
 		res.redirect('/');
 	});
