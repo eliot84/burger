@@ -18,6 +18,14 @@ var orm = {
 			if(err)throw err;
 			callback(result);
 		})
+	},
+
+	create: function(tableInput, val, callback){
+		var queryStringAdd = 'INSERT ' + tableInput + " (burger_name) VALUES ('" + val + "')";
+		connection.query(queryStringAdd, function(err, result){
+			if(err)throw err;
+			callback(result);
+		})
 	}
 }
 

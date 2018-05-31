@@ -9,6 +9,10 @@ var burger = {
 
 	update: function(id, callback){
 		orm.update('burgers', id, callback);
+	},
+
+	create: function(name, callback){
+		orm.create('burgers', name, callback);
 	}
 }
 
