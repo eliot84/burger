@@ -1,0 +1,72 @@
+body{
+background-color: black;
+	color: white;
+font-family: 'Amatic SC', cursive;
+
+}
+
+.heading{
+	width: auto;
+	height: 200px;
+	background-image: url("burger.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	/*background-attachment: fixed;*/
+	/*background-size: cover;*/
+	background-size: contain;
+
+}
+
+.title{
+	height: auto;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 10px;
+	padding-left: 30px;
+}
+
+h1{
+	color: white;
+}
+
+h3{
+	color: white;
+}
+
+h4{
+	color: #CE2D91;
+}
+
+p{
+	color: white;
+}
+
+.here{
+	/*background-color: #5716CE; */
+	width: 150px;
+	height: 100px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	color: white;
+		line-height: 10px;
+
+}
+
+.color{
+	color: white;
+}
+
+.centered{
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.burginput{
+	margin-right: 10px;
+}
+
+.centerEaten{
+	width: 200px;
+}
