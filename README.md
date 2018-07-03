@@ -12,6 +12,7 @@ Makinga yummy burger using node.js, mysql and a custom ORM
 The purpose of this webapp is to explore the use of a node.js, express.js, mysql, heroku a custom ORM and handlebars to create a functional app that uses CRUD, routing and api's
 
 ## Getting Started
+To view the site live go to: https://burger84.herokuapp.com/
 
 To get started,
 1. download the repository and navigate to the directory it is located in using your command line tool.
@@ -21,6 +22,7 @@ To get started,
 3. Once done call: 'npm start'
 
 4. The app will now be accessible via a web browser using: localhost:8080
+
 
 ## Further Help
 
