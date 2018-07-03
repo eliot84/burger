@@ -4,7 +4,7 @@ var connection = mysql.createConnection({
 	//port: '3306', // for localhost only
 	user: 'b1553a54af55ec',
 	password: 'dedd2204',
-	database: 'burgers_db'
+	database: 'heroku_bf64e0465e83135' //burgers_db
 })
 
 connection.connect(function(err){
