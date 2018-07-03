@@ -25,7 +25,7 @@
 					{{#unless this.devoured}}
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 here">
 	
-					<pre class="color">{{id}}. {{this.burger_name}}</pre>
+					<pre class="color margTop">{{id}}. {{this.burger_name}}</pre>
 			
 					<form method="POST" action="/burgers/update?_method=PUT">
 						<input type="hidden" name="burger_id" type="text" value={{this.id}}>

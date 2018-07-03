@@ -24,5 +24,5 @@ app.use('/', routes);
 
 var PORT = process.env.PORT || 8080;
 app.listen(PORT, function(){
-	console.log("Server listening on: http://localhost:" + PORT);
+	console.log("Server listening on port: " + PORT);
 }); 

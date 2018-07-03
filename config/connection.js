@@ -1,9 +1,9 @@
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-	host: 'localhost',
+	host: 'us-cdbr-iron-east-04.cleardb.net',
 	port: '3306',
-	user: 'root',
-	password: '',
+	user: 'b1553a54af55ec',
+	password: 'dedd2204',
 	database: 'burgers_db'
 })
 

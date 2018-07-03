@@ -58,6 +58,11 @@ p{
 	color: white;
 }
 
+.margTop{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .centered{
 	width: 100px;
 	margin-right: auto;
