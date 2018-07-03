@@ -44,6 +44,7 @@ p{
 
 .here{
 	/*background-color: #5716CE; */
+
 	width: 150px;
 	height: 100px;
 	margin-bottom: 10px;
@@ -65,6 +66,16 @@ p{
 
 .burginput{
 	margin-right: 10px;
+}
+
+.btn-default{
+	background-color: #4B57CE;
+	color: white;
+}
+
+.btn-primary{
+	background-color: #4B57CE;
+	color: white;	
 }
 
 .centerEaten{
